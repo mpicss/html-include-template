@@ -1,6 +1,6 @@
 {
-  "name": "grunt-html-index",
-  "version": "1.0.6",
+  "name": "html-include-template",
+  "version": "1.0.0",
   "description": "快速建立html的导航页",
   "main": "task/index.js",
   "scripts": {
@@ -8,35 +8,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/whxaxes/grunt-html-index"
+    "url": "https://github.com/mpicss/html-include-template"
   },
   "author": {
-    "name": "wanghx"
+    "name": "yejun511"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/whxaxes/grunt-html-index/issues"
+    "url": "https://github.com/mpicss/html-include-template/issues"
   },
-  "homepage": "https://github.com/whxaxes/grunt-html-index",
-  "_id": "grunt-html-index@1.0.6",
-  "_shasum": "a92d1b9b7643b0625589bfc3ed65a310f62e36c6",
-  "_from": "grunt-html-index@",
+  "homepage": "https://github.com/mpicss/html-include-template",
+  "_id": "html-include-template@1.0.0",
+  "_from": "html-include-template@",
   "_npmVersion": "1.4.23",
   "_npmUser": {
-    "name": "wanghx",
-    "email": "851094531@qq.com"
+    "name": "yejun511",
+    "email": "yejun511@qq.com"
   },
   "maintainers": [
     {
-      "name": "wanghx",
-      "email": "851094531@qq.com"
+      "name": "yejun511",
+      "email": "yejun511@qq.com"
     }
   ],
-  "dist": {
-    "shasum": "a92d1b9b7643b0625589bfc3ed65a310f62e36c6",
-    "tarball": "http://registry.npmjs.org/grunt-html-index/-/grunt-html-index-1.0.6.tgz"
-  },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/grunt-html-index/-/grunt-html-index-1.0.6.tgz",
   "readme": "ERROR: No README data found!"
 }
