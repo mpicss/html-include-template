@@ -1,11 +1,3 @@
-/*
- * grunt-html-index
- * https://github.com/whxaxes/grunt-html-index
- *
- * Copyright (c) 2015 wanghx
- * Licensed under the MIT license.
- */
-
 module.exports = function (grunt) {
     'use strict';
 
