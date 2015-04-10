@@ -9,16 +9,17 @@
         grunt.loadNpmTasks('html-include-template');
         htmlindex:{
             dist:{
-                cwd: 'test/',
                 expand: true,
-                src: ['html/**/*'],
-                dest: 'test/'
+                cwd: 'src/',
+                
+                src: ['pages/**/*'],
+                dest: 'build/'
             }
         }
 
 比如，我当前的目录结构为：
 
-        test:{
+        pages:{
             html:{
                 index.html,
                 index2.html
