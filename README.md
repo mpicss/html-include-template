@@ -11,7 +11,6 @@
             dist:{
                 expand: true,
                 cwd: 'src/',
-                
                 src: ['pages/**/*'],
                 dest: 'build/'
             }
