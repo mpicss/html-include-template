@@ -1,3 +1,5 @@
+/* mpi css */
+
 module.exports = function (grunt) {
     'use strict';
 
@@ -54,8 +56,7 @@ module.exports = function (grunt) {
                 }
                 nfa = nfa.concat(fa.slice(j , fa.length));
                 //html += '<a href="' + nfa.join("/") + '">' + linkName + '</a>\n';
-                html += '<a href="' + nfa.join("/") + '">' + linkName + '</a>\n';
-                console.log(fa);
+                html += '<a href="/build' + nfa.join("/") + '">' + linkName + '</a>\n';
 
             }
         });
