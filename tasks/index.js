@@ -36,9 +36,6 @@ module.exports = function (grunt) {
                 var title = str.match(/<title>.*<\/title>/g);
                 title = ((title && title[0]) || "<title></title>").replace(/<title>|<\/title>/g , '');
 
-
-								//console.log(title);
-
                 //获取索引html文件所在目录 与 该文件的相对路径
                 var fa = filePath.split("/");
                 var nfa = [];
